@@ -1,0 +1,134 @@
+
+body{
+    background: black;
+    font-family: 'Righteous', cursive !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Righteous', cursive !important;
+    color: white !important;
+}
+
+a,p,span{
+    text-decoration: none !important;
+    color: #ffffffc7 !important;
+    text-transform: lowercase !important;
+}
+
+button{
+    text-transform: lowercase !important;
+    padding: 2% 3%;
+    margin-left: 3%;
+    border: 2px #ffffffc7 solid;
+    background: none;
+    color: white;
+    border-radius: 9px;
+}
+
+.navbar{
+    padding: 3% 0%;
+}
+
+.uk-grid{
+    margin: 0 !important;
+}
+
+.uk-first-column{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.nav-container {
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2% !important;
+    border-bottom: 1px solid #ffffff61;
+}
+
+.link-c{
+    display: flex;
+    gap: 20px;
+}
+
+#brand{
+    font-weight: 700;
+    color: white;
+}
+
+
+#brand-link{
+    justify-content: space-between;
+}
+
+/* landing */
+
+#landing{
+    padding: 5% 0;
+}
+
+h1{
+    font-size: 500% !important;
+}
+
+.land-logo{
+    border-radius: 999px;
+    padding: 1.2%;
+    background: white;
+}
+
+/* main */
+
+button.styled-btn{
+    width: max-content;
+    border-radius: 999px;
+}
+
+.folders *:not(span){
+    color: black !important;
+}
+
+.folders{
+    padding: 5% 15% !important;
+    /* height: 100%; */
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    border-radius: 29px 0px 29px 29px;
+    background-color: white;
+    transition: all 0.7s;
+}
+
+/* @media (max-width: 640px) {
+    .folder-container{
+        gap: 20px;
+    }    
+} */
+.folders:hover{
+    cursor: no-drop;
+    opacity: 0.7;
+    z-index: 999;
+    transform: translate(2px,-10px);
+}
+
+.folders1{
+    background-color: antiquewhite;
+}
+
+
+.folders2{
+    background-color: #3F8F5F;
+}
+
+
+.folders3{
+    background-color: #EE5D36;
+}
+
+span{
+   color: orange !important;
+}
